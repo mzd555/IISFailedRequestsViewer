@@ -1,0 +1,11 @@
+/Users/murtaza/Documents/OnFileSystems/Development/FailedRequestViewer/bin/Debug/netcoreapp2.0/FailedRequestViewer.deps.json
+/Users/murtaza/Documents/OnFileSystems/Development/FailedRequestViewer/bin/Debug/netcoreapp2.0/FailedRequestViewer.runtimeconfig.json
+/Users/murtaza/Documents/OnFileSystems/Development/FailedRequestViewer/bin/Debug/netcoreapp2.0/FailedRequestViewer.runtimeconfig.dev.json
+/Users/murtaza/Documents/OnFileSystems/Development/FailedRequestViewer/bin/Debug/netcoreapp2.0/FailedRequestViewer.dll
+/Users/murtaza/Documents/OnFileSystems/Development/FailedRequestViewer/bin/Debug/netcoreapp2.0/FailedRequestViewer.pdb
+/Users/murtaza/Documents/OnFileSystems/Development/FailedRequestViewer/obj/Debug/netcoreapp2.0/FailedRequestViewer.csprojResolveAssemblyReference.cache
+/Users/murtaza/Documents/OnFileSystems/Development/FailedRequestViewer/obj/Debug/netcoreapp2.0/FailedRequestViewer.csproj.CoreCompileInputs.cache
+/Users/murtaza/Documents/OnFileSystems/Development/FailedRequestViewer/obj/Debug/netcoreapp2.0/FailedRequestViewer.AssemblyInfoInputs.cache
+/Users/murtaza/Documents/OnFileSystems/Development/FailedRequestViewer/obj/Debug/netcoreapp2.0/FailedRequestViewer.AssemblyInfo.cs
+/Users/murtaza/Documents/OnFileSystems/Development/FailedRequestViewer/obj/Debug/netcoreapp2.0/FailedRequestViewer.dll
+/Users/murtaza/Documents/OnFileSystems/Development/FailedRequestViewer/obj/Debug/netcoreapp2.0/FailedRequestViewer.pdb

@@ -1,0 +1,46 @@
+﻿@model IEnumerable<FailedRequestExtended>
+@using Newtonsoft.Json;
+@{
+    ViewData["Title"] = "Failed Requests";
+}
+
+@functions
+{ 
+ public string TruncateLongString(string str)
+{   
+    var maxLength = 1000; 
+    if (string.IsNullOrEmpty(str))
+        return str;
+    return str.Substring(0, Math.Min(str.Length, maxLength));
+}
+}
+
+   <div class="row"> 
+        <ul class="list-group">
+@foreach(var item in @Model)
+{
+    
+            <li class="list-group-item">
+    <div>
+         <h5>    
+             @item.TimeCreated.ToString("MM/dd/yyyy hh:mm tt") 
+@item.BaseRequest.Url - @item.GetContent("GENERAL_ENDPOINT_INFORMATION","RemoteAddress")
+            @item.BaseRequest.StatusCode - @item.BaseRequest.TimeTaken ms 
+            <a class="pull-right" href='/Request/Download/@item.Filename.Replace(".xml","")' >Download</a>             
+            </h5>
+</div>
+<div>      <strong>Headers</strong>
+        @TruncateLongString(@item.Headers)
+        <div><strong>Request</strong>
+        @TruncateLongString(@item.Request)
+        </div>
+    <div><strong>Response</strong>
+        @TruncateLongString(@item.Response)</div>
+    <div><strong>Http Reason</strong>
+        @TruncateLongString(@item.GetContent("MODULE_SET_RESPONSE_ERROR_STATUS","HttpReason"))
+        </div>
+   </li>
+
+}
+</ul>
+</div>

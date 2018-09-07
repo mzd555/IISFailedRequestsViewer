@@ -1,0 +1,13 @@
+/Users/murtaza/Documents/OnFileSystems/Development/FailedRequestViewer
+--output-path=obj/Debug/netcoreapp2.0/
+--application-name=FailedRequestViewer
+--content-root=/Users/murtaza/Documents/OnFileSystems/Development/FailedRequestViewer
+--file=/Users/murtaza/Documents/OnFileSystems/Development/FailedRequestViewer/Views/Home/About.cshtml
+--file=/Users/murtaza/Documents/OnFileSystems/Development/FailedRequestViewer/Views/Home/Contact.cshtml
+--file=/Users/murtaza/Documents/OnFileSystems/Development/FailedRequestViewer/Views/Home/Index.cshtml
+--file=/Users/murtaza/Documents/OnFileSystems/Development/FailedRequestViewer/Views/Request/Index.cshtml
+--file=/Users/murtaza/Documents/OnFileSystems/Development/FailedRequestViewer/Views/Shared/Error.cshtml
+--file=/Users/murtaza/Documents/OnFileSystems/Development/FailedRequestViewer/Views/Shared/_Layout.cshtml
+--file=/Users/murtaza/Documents/OnFileSystems/Development/FailedRequestViewer/Views/Shared/_ValidationScriptsPartial.cshtml
+--file=/Users/murtaza/Documents/OnFileSystems/Development/FailedRequestViewer/Views/_ViewImports.cshtml
+--file=/Users/murtaza/Documents/OnFileSystems/Development/FailedRequestViewer/Views/_ViewStart.cshtml
